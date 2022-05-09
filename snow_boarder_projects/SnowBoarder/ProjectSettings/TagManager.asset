@@ -4,10 +4,7 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Package
-  - Customer
-  - Bump
-  - Boost
+  - Ground
   layers:
   - Default
   - TransparentFX
