@@ -96,6 +96,7 @@ GameObject:
   - component: {fileID: -4923598891162918358}
   - component: {fileID: -4783652206450199970}
   - component: {fileID: -937292204486435297}
+  - component: {fileID: 5613250552280398489}
   m_Layer: 7
   m_Name: Enemies
   m_TagString: Untagged
@@ -180,6 +181,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 50
+  hifEffect: {fileID: 2793460155587087049, guid: a28e776e4b91c56b7b1b4bd261bff613, type: 3}
 --- !u!114 &-937292204486435297
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -193,3 +195,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 10
+--- !u!114 &5613250552280398489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5343294862610533843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26c15d2c74c84bce1a34218cc5f2a3c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Projectile: {fileID: 4945492283485100659, guid: 23455a6af8ca41f829a5fe511c33ec34, type: 3}
+  speed: -7
+  lifetime: 5
+  fireRate: 1
+  useAI: 1
